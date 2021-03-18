@@ -1,5 +1,1 @@
-[context.production.environment]
-  HUGO_VERSION = "0.31"
-
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.31"
+blogdown::new_site(theme = "MarcusVirg/forty", sample = TRUE, theme_example = TRUE, empty_dirs = TRUE, to_yaml = TRUE)
